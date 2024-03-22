@@ -10,7 +10,7 @@ const User = require("../models/user.js");
 const registerUser = async (req, res) => {
   try {
     const { name, email, password } = req.body;
-    //check if name was entered
+    //check if name was entered ??git
     if (!name) {
       return res.json({
         error: "name is required",
